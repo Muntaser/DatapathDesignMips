@@ -1,0 +1,60 @@
+
+--MUX for 2 input 32 bit numbers
+--TESTBENCH
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Mux2_32_Test is
+end entity;
+
+architecture behavior of Mux2_32_Test is
+
+COMPONENT MuxIn32 is
+	port (ZERO: in std_logic_vector(31 downto 0);
+		  ONE: in std_logic_vector(31 downto 0);
+		  CTRL: in std_logic_vector(1 downto 0);
+		  OUTPUT: out std_logic_vector(31 downto 0));
+end COMPONENT;
+
+--Declaration of test signal Inputs
+signal TEST_ZERO: std_logic_vector(31 downto 0);
+signal TEST_ONE: std_logic_vector(31 downto 0);
+signal TEST_CTRL: std_logic_vector(1 downto 0);
+
+--Declaration of test signal Outputs
+signal TEST_OUTPUT: std_logic_vector(31 downto 0);
+
+begin
+
+	uut: MuxIn32 PORT MAP (
+			ZERO => TEST_ZERO,
+			ONE => TEST_ONE,
+			CTRL => TEST_CTRL,
+			OUTPUT => TEST_OUTPUT);
+
+	ZERO_G: process
+	begin
+		Test_ZERO <= x"50000000" after 0 ns,
+				   x"FFFFFFFF" after 20 ns;
+		wait;
+	end process ZERO_G;
+	
+	ONE_G: process
+	begin
+		TEST_ONE <= x"90000000" after 0 ns,
+				  x"FFFFFFFF" after 40 ns;
+		wait;
+	end process ONE_G;
+	
+	CTRL_G: process
+	begin
+		TEST_CTRL <= "00" after 0 ns,
+			       "01" after 10 ns,
+				   "00" after 20 ns,
+				   "01" after 30 ns,
+				   "11" after 40 ns;
+		wait;
+	end process CTRL_G;
+end architecture behavior;
+
+		

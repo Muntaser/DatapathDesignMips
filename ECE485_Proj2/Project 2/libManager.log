@@ -1,0 +1,25 @@
+\o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
+\o Sub version:		sub-version  s008 
+\o Arguments:		-mpssession virtuoso22958 -mpshost uranus.ece.iit.edu 
+\o Working Directory:	uranus.ece.iit.edu:/home/mkhan/Desktop
+\o Qt version: 		4.5.3
+\o Log file is "/home/mkhan/Desktop/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(243 4 1024 717))
+\o changeWorkingDir("/home/mkhan/Desktop") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\w Warning: LIB OSU_stdcells from File /home/mkhan/cds.lib Line 9 redefines
+\w LIB OSU_stdcells from the same file (defined earlier.)
+\w Warning: LIB OSU_stdcells from File /home/mkhan/cds.lib Line 10 redefines
+\w LIB OSU_stdcells from the same file (defined earlier.)
+\w Warning: LIB OSU_stdcells from File /home/mkhan/cds.lib Line 11 redefines
+\w LIB OSU_stdcells from the same file (defined earlier.)
+\w Warning: The directory: '/home/mkhan/my' does not exist
+\w 	but was defined in libFile '/home/mkhan/cds.lib' for Lib 'my'.
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

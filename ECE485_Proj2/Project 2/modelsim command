@@ -1,0 +1,3 @@
+source /import/scripts/modelsim.cshrc
+cd /apps/MGC/modelsim_se_10.1b/modeltech/bin/
+./vsim

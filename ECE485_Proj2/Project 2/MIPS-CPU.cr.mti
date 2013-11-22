@@ -1,0 +1,214 @@
+{W:/ECE 485/My Projects/Project 2/Mux2Test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/Mux2Test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux2Test
+-- Compiling architecture behavior of Mux2Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/Register_test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/Register_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Register_Data_Test
+-- Compiling architecture behave of Register_Data_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/Register.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/Register.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DRegister
+-- Compiling architecture behavioral of DRegister
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/Mux3Test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/Mux3Test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux3Test
+-- Compiling architecture behavior of Mux3Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/IM.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/IM.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity IM
+-- Compiling architecture behave of IM
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/SignExt5_Test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/SignExt5_Test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExt5_Test
+-- Compiling architecture behavior of SignExt5_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/ARC_2_Test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/ARC_2_Test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ARC_2_Test
+-- Compiling architecture behave of ARC_2_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/SignExt5.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/SignExt5.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SignExtend5
+-- Compiling architecture behavior of SignExtend5
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/ARC_2.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/ARC_2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ARC_2
+-- Compiling architecture behave of ARC_2
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/DM.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/DM.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DM
+-- Compiling architecture behave of DM
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/SHIFT_LEFT2_TEST.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/SHIFT_LEFT2_TEST.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SHIFT_LEFT2_TEST
+-- Compiling architecture behave of SHIFT_LEFT2_TEST
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/ALU.vhd} {2 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/ALU.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture behave of ALU
+** Warning: W:/ECE 485/My Projects/Project 2/ALU.vhd(15): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 18).
+
+** Warning: W:/ECE 485/My Projects/Project 2/ALU.vhd(17): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 12).
+
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/Mux2.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/Mux2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux2
+-- Compiling architecture behavior of Mux2
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/MuxIn32_0_test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/MuxIn32_0_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux2_32_Test
+-- Compiling architecture behavior of Mux2_32_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/ID_Test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/ID_Test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ID_Test
+-- Compiling architecture behave of ID_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/Mux3.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/Mux3.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux3
+-- Compiling architecture behavior of Mux3
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/MuxIn32_0.vhd} {2 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/MuxIn32_0.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MuxIn32
+-- Compiling architecture behavior of MuxIn32
+** Warning: W:/ECE 485/My Projects/Project 2/MuxIn32_0.vhd(14): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 2).
+
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/ID.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/ID.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ID
+-- Compiling architecture behave of ID
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/DATAPATH_Test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/DATAPATH_Test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DATAPATH_Test
+-- Compiling architecture behave of DATAPATH_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/MuxIn32_1.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/MuxIn32_1.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MuxIn32_1
+-- Compiling architecture behavior of MuxIn32_1
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/DATAPATH.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/DATAPATH.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DATAPATH
+-- Compiling architecture behave of DATAPATH
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/ALU_Test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/ALU_Test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_Test
+-- Compiling architecture behave of ALU_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/SHIFT_LEFT2.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/SHIFT_LEFT2.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SHIFT_LEFT2
+-- Compiling architecture behave of SHIFT_LEFT2
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/CalPC_test.vhd} {1 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/CalPC_test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CalPC_Test
+-- Compiling architecture behave of CalPC_Test
+
+} {} {}} {W:/ECE 485/My Projects/Project 2/CalPC.vhd} {2 {vcom -work work -2002 -explicit {W:/ECE 485/My Projects/Project 2/CalPC.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.2c Compiler 2013.07 Jul 18 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity CalPC
+-- Compiling architecture behave of CalPC
+** Warning: W:/ECE 485/My Projects/Project 2/CalPC.vhd(23): (vcom-1083) Implicit array operator "=" always returns FALSE (left length 6 is not equal to right length 5).
+
+
+} {} {}}

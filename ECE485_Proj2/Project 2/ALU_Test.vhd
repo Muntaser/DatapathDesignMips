@@ -1,0 +1,46 @@
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ALU_Test is
+end entity;
+
+architecture behave of ALU_Test  is
+
+--declaration of the Behaviral Encoder
+COMPONENT ALU is
+port ( INPUT_1: in std_logic_vector(31 downto 0);
+		      INPUT_2: in std_logic_vector(31 downto 0);
+		      CONTROL: in std_logic_vector(2 downto 0);
+		      B_OUT: out std_logic; 				
+		      F_OUT: out std_logic_vector(31 downto 0));
+end COMPONENT;
+
+--Declaration of test signal Inputs
+signal SIGIN1: std_logic_vector(31 downto 0):= X"00000001";
+signal SIGIN2: std_logic_vector(31 downto 0):= X"00000003";	
+signal SIGCONTROL: std_logic_vector(2 downto 0);							
+
+--Declaration of test signal Outputs
+signal SIGBOUT: std_logic;
+signal SIGFOUT: std_logic_vector(31 downto 0);
+begin
+	SUB: ALU PORT MAP (
+			INPUT_1 => SIGIN1,
+			INPUT_2 => SIGIN2,
+			CONTROL => SIGCONTROL,
+			B_OUT => SIGBOUT,
+			F_OUT => SIGFOUT);
+
+	process
+	begin 
+		SIGCONTROL <= "000" after 0 ns,
+				 "001" after 10 ns,
+				 "010" after 20 ns,
+				 "011" after 30 ns,
+				 "100" after 40 ns,
+				 "101" after 50 ns,
+				 "110" after 60 ns;
+	wait;
+	end process;
+end architecture behave;	

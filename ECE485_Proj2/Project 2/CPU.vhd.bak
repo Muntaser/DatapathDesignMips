@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity CPU is
+  port (PCIN: in std_logic_vector(31 downto 0);
+		    PCOUT: out std_logic_vector(31 downto 0);
+		    DATAOUT: out std_logic_vector(31 downto 0);
+end entity CPU;
+
+architecture behave of CPU is
+  
+  component IM
+	port (PCIN: in std_logic_vector(31 downto 0); 			--32-bit instruction
+			  IOUT: out std_logic_vector(31 downto 0)); --32-bit instruction(hardcoded in)
+end component;
+ BEGIN
+  signal IOUT: std_logic_vector(31 downto 0);
+  signal PC: std_logic_vector(31 downto 0);
+  
+  Instruction_Mem: IM port map(PCIN => PCIN, 
+									IOUT => IOUT);
+  
+end architecture behave;
+  
+  
